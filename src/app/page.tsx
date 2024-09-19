@@ -11,7 +11,7 @@ async function getDalyGame() {
 
     return res.json();
   }
-  catch(erroe) {
+  catch(error) {
     throw new Error("Failed to fetch data");
   }
 }

@@ -12,8 +12,7 @@ export function Input() {
         event.preventDefault();
 
         if(input === "") return;
-        router.push(`/game/search/${input}`)
-        
+        router.push(`/game/search/${input}`);
     }
 
     return (

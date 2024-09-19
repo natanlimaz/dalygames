@@ -29,7 +29,7 @@ export function Header() {
                 </nav>
 
                 <div className="hidden sm:flex justify-center items-center">
-                    <Link href="/profile">
+                    <Link href="/profile" data-testid="gamepad-icon">
                         <LiaGamepadSolid size={34} color="#475569"/>
                     </Link>
                 </div>
